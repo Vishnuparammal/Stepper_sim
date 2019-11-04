@@ -9,17 +9,17 @@ Simulation of stepper motor on Proteus. The source code has been implemented on 
   Google Drive: https://drive.google.com/drive/folders/0B7qarf3_2VkVSFRZa3hpV19TTEk
   
   * Download 'setup' and 'crack' from google drive  
-  *Extract 'crack' and copy paste 'LICENCE' to desktop  
-  *Run setup  
-  *When asked for activation key in setup, select local licence option  
-  *Browse and navigate to desktop and click on 'LICENCE'  
-  *Click on install  
-  *Continue with the rest of setup  
-  *At the end of setup, click on run button to start proteus  
-  *Quit proteus  
-  *Copy 'BIN' and 'MODELS' from 'crack' folder  
-  *Paste them in C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional  
-  *Refresh and start proteus from the desktop shortcut  
+  * Extract 'crack' and copy paste 'LICENCE' to desktop  
+  * Run setup  
+  * When asked for activation key in setup, select local licence option  
+  * Browse and navigate to desktop and click on 'LICENCE'  
+  * Click on install  
+  * Continue with the rest of setup  
+  * At the end of setup, click on run button to start proteus  
+  * Quit proteus  
+  * Copy 'BIN' and 'MODELS' from 'crack' folder  
+  * Paste them in C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional  
+  * Refresh and start proteus from the desktop shortcut  
   
 3. The C code on keil (Stepper/stepper.c) is for AT89C51 with frequency of 11.0592MHz
 
