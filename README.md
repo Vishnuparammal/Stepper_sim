@@ -8,7 +8,7 @@ Simulation of stepper motor on Proteus. The source code has been implemented on 
   Youtube: https://www.youtube.com/watch?v=0DX8sIPHkTg  
   Google Drive: https://drive.google.com/drive/folders/0B7qarf3_2VkVSFRZa3hpV19TTEk
   
-  *Download 'setup' and 'crack' from google drive  
+  * Download 'setup' and 'crack' from google drive  
   *Extract 'crack' and copy paste 'LICENCE' to desktop  
   *Run setup  
   *When asked for activation key in setup, select local licence option  
