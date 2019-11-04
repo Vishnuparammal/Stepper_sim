@@ -1,0 +1,49 @@
+C51 COMPILER V9.60.0.0   STEPPER                                                           11/04/2019 23:08:58 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE STEPPER
+OBJECT MODULE PLACED IN .\Objects\stepper.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE stepper.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\s
+                    -tepper.lst) TABS(2) OBJECT(.\Objects\stepper.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          sbit l1=P1^0;
+   3          sbit l2=P1^1;
+   4          sbit l3=P1^2;
+   5          sbit l4=P1^3;
+   6          void main()
+   7          {
+   8   1        unsigned int i;
+   9   1        l1 = l2 = l3 = l4 = 0;
+  10   1        while(1)
+  11   1        {
+  12   2          l1 = 1;
+  13   2          l2=l3=l4=0;
+  14   2          for(i=0;i<60000;i++);
+  15   2          l2=1;
+  16   2          l1=l3=l4=0;
+  17   2          for(i=0;i<60000;i++);
+  18   2          l3=1;
+  19   2          l1=l2=l4=0;
+  20   2          for(i=0;i<60000;i++);
+  21   2          l4=1;
+  22   2          l1=l2=l3=0;
+  23   2          for(i=0;i<60000;i++);
+  24   2        }
+  25   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    149    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
